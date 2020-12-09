@@ -13,6 +13,14 @@ namespace LLBInputHistory
             instance = gameObject.AddComponent<LLBInputHistory>();
             DontDestroyOnLoad(gameObject);   
         }
+
+        public ModMenuIntegration MMI = null;
+
+        private void Update() {
+            if (MMI == null) { MMI = gameObject.AddComponent<ModMenuIntegration>(); }
+        }
+
+
         private void OnGUI() {
             GUI.contentColor = Color.red;
             GUI.Label(new Rect(10, 10, 100, 25), "LLBM Mod Test");

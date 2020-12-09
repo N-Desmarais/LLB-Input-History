@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30330.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLBInputHistory", "D:\GitHubDesktop\LLB-Input-History\LLBInputHistory\LLBInputHistory.csproj", "{D04209CE-2A2C-4318-A3CD-C33BB2287D93}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLBInputHistory", "C:\Users\njdes\Documents\GitHub\LLB-Input-History\LLBInputHistory\LLBInputHistory.csproj", "{D04209CE-2A2C-4318-A3CD-C33BB2287D93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
