@@ -6,6 +6,10 @@ namespace LLBInputHistory
 {
     public class LLBInputHistory : MonoBehaviour
     {
+        public const string modVersion = "1.0.0";
+        private const string repositoryOwner = "N-Desmarais";
+        private const string repositoryName = "LLB-Input-History";
+
         public static LLBInputHistory instance = null;
 
         public static void Initialize() {
